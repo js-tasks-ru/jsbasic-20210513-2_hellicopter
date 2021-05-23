@@ -3,7 +3,7 @@ function ucFirst(str) {
     return "";
   }
   else {
-    let firstChar = str[0].toUpperCase;
+    let firstChar = str[0].toUpperCase();
     return firstChar + str.slice(1);
   }
 }
