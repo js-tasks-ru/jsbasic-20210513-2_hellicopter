@@ -1,3 +1,6 @@
 function isEmpty(obj) {
-  // ваш код...
+  for (let property in schedule) {
+    return false;
+  }
+  return true;
 }
